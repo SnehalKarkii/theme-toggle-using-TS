@@ -1,0 +1,33 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: boder-box;
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+
+button{
+  padding:10px 30px;
+  outline:none;
+  background-color:white;
+  border-radius:50px;
+  font-size:18px;
+  font-weight:bold;
+}
+
+button:hover{
+font-size:20px;
+}
